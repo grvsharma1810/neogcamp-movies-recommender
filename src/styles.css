@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+.App {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  margin: 3rem auto 1rem auto;
+}
+
+.header {
+  font-size: xx-large;
+  font-weight: bold;
+  margin: 1rem 0rem;
+}
+.categoryList {
+  margin: 1rem 0rem;
+}
+
+.category {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: rgb(229, 231, 235);
+}
+
+.movie {
+  border: 0.5px solid darkgray;
+  border-radius: 0.2rem;
+  margin: 1rem 0rem;
+  padding: 0.5rem;
+}
+
+.movie > h4 {
+  margin: 0.3rem 0rem;
+  padding: 0;
+}
